@@ -1,1 +1,3 @@
 # Portland_Scraping
+
+The python functions in this repository collect and store data on real-estate transactions and property characteristics in Portland, Oregon. Based on a publicly available registry of all Portland's civic addresses, the script searches and scrapes information on three websites: multcoproptax.com, redfin.com, and portlandmaps.com (an updated version of the site is now live, making parts of this script obsolete). These data are stored and serialized as python pickles, and then converted to a csv dataset in pickle2csv.py
